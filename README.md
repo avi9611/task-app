@@ -14,7 +14,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [https://task-app2-ten.vercel.app/sign-in](https://task-app2-ten.vercel.app/sign-in) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
@@ -84,7 +84,7 @@ This is a Next.js application designed as a task management tool with robust use
    ```bash
    npm run dev
    ```
-   The app will be available at [http://localhost:3000](http://localhost:3000).
+   The app will be available at [https://task-app2-ten.vercel.app/sign-in](https://task-app2-ten.vercel.app/sign-in).
 
 5. **Build for Production**:
    To create a production build, run:
