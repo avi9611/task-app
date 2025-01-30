@@ -47,11 +47,13 @@ export const filterTasks = (
   });
 };
 
+// Load task
 export const loadTasksFromStorage = (): Task[] => {
   const storedTasks = localStorage.getItem('tasks');
   return storedTasks ? JSON.parse(storedTasks) : [];
 };
 
+// Save Task to local storage
 export const saveTasksToStorage = (tasks: Task[]): void => {
   localStorage.setItem('tasks', JSON.stringify(tasks));
 };
