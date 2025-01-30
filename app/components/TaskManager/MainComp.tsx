@@ -139,6 +139,7 @@ export const MainComp: React.FC<AppProps> = ({ onTasksChange }) => {
     }
   };
 
+  // add task handler
   const handleAddTask = async (e: React.FormEvent) => {
     e.preventDefault();
 
