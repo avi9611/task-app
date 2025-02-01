@@ -1,4 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![App Screenshot](taskmanager1.png)
+![App Screenshot](taskmanager2.png)
+![App Screenshot](taskmanager3.png)
 
 ## Getting Started
 
