@@ -22,11 +22,11 @@ export const TaskCard: React.FC<TaskCardProps> = ({
   const handleDelete = () => {
     if (task._id) {
       if (window.confirm("Are you sure you want to delete this task?")) {
-        console.log("Deleting Task ID:", task._id); 
+        console.log("Deleting Task ID:", task._id);
         onDelete(task._id);
       }
     } else {
-      console.error("Task ID is undefined"); 
+      console.error("Task ID is undefined");
     }
   };
 
@@ -47,9 +47,9 @@ export const TaskCard: React.FC<TaskCardProps> = ({
           onChange={() => onToggleSelection(task._id)}
           className="mt-1"
         />
-        <div className="flex-1">
+        <div className="flex-1 min-w-0"> {/* Added min-w-0 to prevent flex item from growing */}
           <h3 className="font-medium text-gray-800 truncate">{task.title}</h3>
-          <p className="text-sm text-gray-600 mt-1 truncate">
+          <p className="text-sm text-gray-600 mt-1 break-words overflow-hidden overflow-ellipsis">
             {task.description}
           </p>
           <div className="flex items-center justify-between mt-3 flex-wrap gap-2">
